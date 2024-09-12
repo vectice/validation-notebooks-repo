@@ -1,14 +1,14 @@
 
 # Model Validation Notebooks
 
-This repository contains a set of predefined validation notebooks to help you validate models based on best practices, with metadata and configuration files to streamline the process.
+This repository contains a set of predefined validation notebooks to help you validate models based on best practices, with metadata and configuration files to streamline the process. You will need to get the configuration files from the Vectice UI.
 
 ## How to Use This Repository
 
 1. **Identify Your Model Type**  
    Choose between the available subfolders based on your specific validation needs. This repository currently includes:
-   - Custom Extensions
    - Classification Models (wrapping the MoDeVa extension)
+   - Custom Extensions
 
 2. **Download the Recommended Notebook**  
    In each subfolder, you'll find notebooks pre-configured to handle specific validation tasks. Download the notebook that best fits your requirements.
