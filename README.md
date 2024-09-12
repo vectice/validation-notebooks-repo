@@ -1,7 +1,7 @@
 
 # Model Validation Notebooks
 
-This repository contains a set of predefined validation notebooks to help you validate models based on best practices, with metadata and configuration files to streamline the process. You will need to get the configuration files from the Vectice UI.
+This repository contains a set of predefined validation notebooks to help you validate models based on best practices, with metadata and configuration files to streamline the process. You can get a prepopulated configuration files (JSON) for the model you would like to validate from the Vectice UI.
 
 ## How to Use This Repository
 
