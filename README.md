@@ -21,7 +21,7 @@ This repository contains a set of predefined validation notebooks to help you va
 ## Folder Overview
 
 ### 1. **Classification Models**  
-This folder wraps the MoDeVa commercial extension of PiML and provides validation notebooks for classification models. These notebooks include comprehensive tests to evaluate:
+This folder wraps the MoDeVa commercial extension of PiML and provides validation notebooks for classification models. This notebook is a sample that includes tests to evaluate:
    - **Explainability:** Ensures that the model's predictions can be interpreted.
    - **Resilience:** Tests the model's ability to maintain performance under varying conditions.
    - **Robustness:** Measures how sensitive the model is to small changes in the input.
