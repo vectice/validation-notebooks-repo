@@ -8,7 +8,7 @@ This repository contains a set of predefined validation notebooks to help you va
    This repository is structured to guide you towards the appropriate validation suite based on your specific use case. The folders are organized by validation categories, and each category contains specialized test suites to assess different aspects of your model.
 
 2. **Select the Appropriate Test Suite**  
-   Navigate through the folder structure to select the most relevant test suite for your needs. Each test suite is designed for specific validation tasks such as **Classification**, **Explainability**, **Resilience**, **Robustness**, **Model Performance**, or **PD Models**.
+   Navigate through the folder structure to select the most relevant test suite for your needs. Each test suite is designed for specific validation tasks such as **Classification**, **Explainability**, **Resilience**, **Robustness**, **Model Performance**, **PD Models**, or **LLM Use Cases**.
 
 3. **Download and Customize as Needed**  
    Once you’ve identified the correct test suite, download the corresponding notebook. If the default notebook doesn’t fully meet your needs, you can modify the provided tests or create your own. The repository also includes example notebooks to help you customize your validation tests.
@@ -26,7 +26,8 @@ The repository is structured around key validation categories, with each categor
 | **Testing model robustness to input variations**   | Robustness              | `robustness`                       | - `robustness_notebook.ipynb`: Evaluates model sensitivity to small input changes.                           |
 | **Assessing model performance under varied conditions** | Resilience             | `resilience`                       | - `resilience_notebook.ipynb`: Measures how well the model maintains performance under stress tests.         |
 | **Evaluating overall model performance**           | Model Performance       | `performance`                      | - `performance_notebook.ipynb`: Provides an overview of standard performance metrics.                        |
-| **Validating Probability of Default (PD) models**  | PD Models               | `pd_models`                        | - `pd_validation_notebook.ipynb`: Tests focused on validating probability of default predictions. |
+| **Validating Probability of Default (PD) models**  | PD Models               | `pd_models`                        | - `pd_validation_notebook.ipynb`: Tests focused on validating probability of default predictions |
+| **Validating Large Language Models (LLMs)**        | LLM Use Cases           | `llm_use_cases`                    | - `llm_judge_notebook.ipynb`: Uses Giskard to assess the LLM’s ability to judge the accuracy and relevance of its outputs.<br>- `llm_evaluation_notebook.ipynb`: Focuses on evaluating LLM performance on specific tasks like summarization, translation, and question answering.<br>- `llm_bias_detection_notebook.ipynb`: Detects and measures bias in LLM outputs. |
 
 ### Folder Descriptions
 
@@ -47,3 +48,11 @@ The repository is structured around key validation categories, with each categor
 
 6. **PD Models**  
    This folder is dedicated to validating Probability of Default (PD) models. It includes tests to assess the calibration, discriminatory power, and overall reliability of PD predictions.
+
+7. **LLM Use Cases**  
+   Contains notebooks specifically designed for validating Large Language Models (LLMs). The test suites include:
+   - **LLM as Judge**: Using the Giskard library to evaluate the LLM’s ability to judge the accuracy and relevance of its outputs.
+   - **Task-Specific LLM Evaluation**: Focused on assessing LLM performance on tasks such as summarization, translation, and question answering.
+   - **LLM Bias Detection**: A notebook dedicated to detecting and measuring bias in LLM outputs.
+
+---
